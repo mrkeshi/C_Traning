@@ -13,5 +13,7 @@ while (1)
     count++;
     sum+=num;
 }
+    printf("\n sum: %d",sum);
+    printf("\n count: %d",count);
     printf("\n Average: %d \n",sum/count);
 }
