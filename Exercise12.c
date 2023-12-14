@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 void main(){
-int number;int num;
+int number;
 printf("please enter Your number:");
 scanf("%d",&number);
 int status=1;
 while (number>0)
 {
+
     for (int i = 2; i*i < number; i++)
     {
         if (number%i==0)
